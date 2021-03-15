@@ -1,0 +1,7 @@
+def rev(i):
+    out=0
+    while i>0:
+        a=i%10
+        out=out*10+a
+        i=i//10
+    return(out)
